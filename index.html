@@ -1,1 +1,78 @@
 <!--CTRL / = comments code that will not run in the browser  -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head -> information about the head -->
+  <head>
+    <!-- Indent elements inside elements -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tab title -->
+    <title>HTML Reference</title>
+  </head>
+  <body>
+    <header id="header">
+      <!-- h - based on importance (h1, h2, .. h6) -->
+      <h1>Common HTML Elements</h1>
+      <!--  paragraph -> text -->
+      <p>Showcase of commonly used HTML elements</p>
+    </header>
+    <!-- main content of website -->
+    <main>
+      <section>
+        <h2>Images</h2>
+        <!-- images - inline elements - they have the src attribute -> needs to be the source of the image -->
+        <img src="#" alt="Alternative text" />
+        <img src="#" alt="Alternative text" />
+        <img src="#" alt="Alternative text" />
+        <!-- alt is alternative text -> fallback -> accessibility-->
+      </section>
+      <!-- structure- grouping related -->
+      <!-- article - structure - grouping content that makes sense by itself -stand alone text-->
+      <section>
+        <h2>Lists</h2>
+        <h3>Unordered Lists (Bullet Point Lists)</h3>
+        <ul>
+          <!-- unordered list -->
+          <!-- li- list items -->
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Third Item</li>
+        </ul>
+        <h3>Ordered Lists (Numbered Lists)</h3>
+        <ol>
+          <li>First Item</li>
+          <li>Second Item</li>
+          <li>Third Item</li>
+        </ol>
+        <!-- ordered list -->
+      </section>
+      <section>
+        <h2>Containers</h2>
+        <h3>Div Containers</h3>
+        <div>
+          <!-- div is a block level element. they are not letting anything sit beside them. Div is used for grouping and dividing your html. purely styling, rather than structure-->
+          <p>First Item in Group</p>
+          <p>Second Item in Group</p>
+        </div>
+        <h3>Span Containers</h3>
+        <div>
+          <!-- span needs to be inside a block element (they are inline elements) - the inline version of a div -->
+          <p><span>First</span> Item in Group</p>
+          <p><span>Second</span> in Group</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Links</h2>
+      <!--anchor/link - link href-> where the link is going -->
+
+      <a href="../README.md">Linking to another file in folder</a>
+      <a href="#header">Linking to an ID</a>
+      <a href="https://www.google.com/">Linking to website</a>
+      <a href="https://www.google.com/" target="_blank"
+        >Link and Open new tab</a
+      >
+    </footer>
+  </body>
+</html>
